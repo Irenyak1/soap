@@ -3,7 +3,8 @@ import Badge from '@material-ui/core/Badge';
 import { makeStyles } from '@material-ui/core/styles';
 
 
-const useStyles = makeStyles(theme => ({
+
+const useStyles = makeStyles( () => ({
   badge: {
     backgroundColor: "#fff",
     color: "#542a52",

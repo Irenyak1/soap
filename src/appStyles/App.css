@@ -368,13 +368,13 @@ button.personalDetails-form-save {
   font-size: 22px;
 }
 
-button.personalDetails-form-next:hover, 
-button.personalDetails-form-save:hover{
+button.personalDetails-form-next:hover,
+button.personalDetails-form-save:hover {
   background-color: #fff;
   color: #542a52;
 }
 
-.horizontalLine hr{
+.horizontalLine hr {
   border-top: 1px solid #542a52;
   margin-top: 28px;
 }

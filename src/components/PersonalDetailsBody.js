@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "../appStyles/App.css";
 import { connect } from 'react-redux';
@@ -6,7 +6,7 @@ import BadgeAlignment from './BadgeAlignment';
 // import ArrowRight from "./ArrowRight";
 
 
-class PersonalDetailsBody extends React.Component {
+class PersonalDetailsBody extends Component {
     state = { title: undefined };
 
     render() {
@@ -40,7 +40,7 @@ class PersonalDetailsBody extends React.Component {
                                                 <div className="col-sm-8 col-md-8  col-lg-8 col-xl-8">
                                                     <div className="form-group">
                                                         <label htmlFor="personalDetailsFormSname">
-                                                            <h5><strong>Sur name<span className="mySpan">*</span></strong></h5>
+                                                            <h5><strong>Surname<span className="mySpan">*</span></strong></h5>
                                                         </label>
                                                         <input
                                                             type="text"
@@ -92,13 +92,10 @@ class PersonalDetailsBody extends React.Component {
 
                                                     <div className="form-group">
 
-                                                        <input
-                                                            type="textarea"
-                                                            className="personalDetails-form-textarea"
-                                                            id="personalDetailsTextarea"
-                                                            name="personalDetailsTextarea"
-                                                            aria-describedby="textareaHelp"
-                                                        />
+                                                        <div className="personalDetails-form-textarea">
+                                                            <img src={"/static/Irene.jpg"} alt="Student-pic" width="100%" height="100%" />
+
+                                                        </div>
                                                         <div className="photo-error">
                                                             You must upload your photo!
                                                         </div>

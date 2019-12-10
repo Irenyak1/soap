@@ -44,7 +44,7 @@ class App extends React.Component {
 
           <Switch>
             <Route path="/" exact component={AppIndex} />
-            <Route path="/apply" exact component={apply} />
+            <Route path="/apply" component={apply} />
             <Route path="/login" component={login} />
             <Route path="/signup" component={signup} />
             {/* <Route path="/applicant" exact component={applicant} /> */}
@@ -52,7 +52,7 @@ class App extends React.Component {
             {/* <Route path="/admin" component={admin} /> */}
             <Route path="/applicant/signup" component={SignUpBody} />
             <Route path="/applicant/login" component={LoginBody} />  
-            <Route path="/applicant/application/details" component={PersonalDetailsBody}/>
+            <Route path="/applicant/application/catalyst/applicant-details" component={PersonalDetailsBody}/>
             {/* <Route path="/applicant/button" component={PersonalDetailsButton} />             */}
             {/* <Route path="/staff" exact component={staff} />
             <Route path="/staff/selection" component={selection} />
