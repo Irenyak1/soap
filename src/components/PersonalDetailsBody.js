@@ -3,8 +3,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "../appStyles/App.css";
 import { connect } from 'react-redux';
 import BadgeAlignment from './BadgeAlignment';
-// import ArrowRight from "./ArrowRight";
-
 
 class PersonalDetailsBody extends Component {
     state = { title: undefined };
@@ -273,7 +271,6 @@ class PersonalDetailsBody extends Component {
                                                                             value="Next"
                                                                             aria-describedby="nextHelp"
                                                                         ><strong>Next</strong></button>
-                                                                        {/* <ArrowRight/> */}
                                                                     </div>
                                                                 </div>
                                                             </div>
